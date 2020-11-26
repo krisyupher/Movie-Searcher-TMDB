@@ -1,0 +1,76 @@
+.TvDetailContainer {
+	display: flex;
+	justify-content: center;
+	background: linear-gradient(
+		120deg,
+		rgba(255, 255, 255, 0) 0%,
+		rgba(146, 159, 185, 0.577) 37%,
+		rgb(251, 251, 251) 67%,
+		rgba(161, 169, 186, 1) 100%
+	);
+	.BackContainer {
+		width: 80%;
+		margin: 30px 0;
+		display: flex;
+		justify-content: center;
+		.back {
+			background: white;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+			padding: 0.7em 2.2em;
+			border: none;
+			cursor: pointer;
+		}
+	}
+	.imgContainer {
+		background: whitesmoke;
+		padding: 10px;
+		box-shadow: 4px 4px 10px;
+		margin: 20px;
+		border-radius: 5px;
+		height: 400px;
+		h2 {
+			color: grey;
+			max-width: 230px;
+			margin: 0;
+		}
+	}
+	.Tabs {
+		h3 {
+			font-size: 30px;
+			color: grey;
+			margin: 20px;
+		}
+		.TabList {
+			display: flex;
+			flex-wrap: wrap;
+			list-style: none;
+			cursor: pointer;
+			.Tab {
+				width: 50px;
+				height: 50px;
+				box-shadow: 4px -4px 10px;
+				font-size: 25px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				font-weight: 600;
+				color: rgb(85, 85, 85);
+				margin: 5px;
+				border-radius: 5px;
+			}
+			.react-tabs__tab--selected {
+				background: #e1e1e1;
+			}
+		}
+		.episodesContainer {
+			border-top: 1px solid gray;
+			display: flex;
+			p {
+				font-size: 20px;
+				font-weight: 700;
+				margin: 10px;
+				color: #646464;
+			}
+		}
+	}
+}

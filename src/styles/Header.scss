@@ -1,0 +1,60 @@
+.HeaderContainer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background-color: #20232a;
+	width: 100vw;
+	flex-wrap: wrap;
+	.HeaderTittle {
+		color: white;
+		text-decoration: none;
+	}
+	a {
+		text-decoration: none;
+	}
+	.logoImg{
+		width: 300px;
+height: 50px;
+	}
+	h4 {
+		margin: 4px;
+		color: #61dafb;
+	}
+	.inputContainer {
+		border-radius: 15px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: whitesmoke;
+		height: 30px;
+		input {
+			height: inherit;
+			border: none;
+			background: none;
+			outline: none;
+			padding-left: 20px;
+		}
+		button {
+			background: none;
+			height: inherit;
+			width: 50px;
+			box-sizing: content-box;
+			border: none;
+			border-left: 1px solid rgba(80, 80, 80, 0.739);
+			padding: 4px;
+			box-sizing: border-box;
+			border-top-right-radius: inherit;
+			border-bottom-right-radius: inherit;
+			outline: none;
+			cursor: pointer;
+			&:hover{
+				background: rgba(194, 194, 194, 0.733);
+				color: wheat;
+			}
+			img {
+				width: auto;
+				height: -webkit-fill-available;
+			}
+		}
+	}
+}
