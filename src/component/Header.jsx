@@ -22,7 +22,7 @@ const Header = props => {
 				<button onClick={() => {
 					history.push(`/Search/${text}`)
 				}}>
-					<img src={lupa} alt="lupa" />
+					<img className="lupa" src={lupa} alt="lupa" />
 				</button>
 			</div>
 			<div>
