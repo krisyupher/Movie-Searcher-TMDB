@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Movie-Searcher-TMDB/static/css/main.697f0756.chunk.css",
+    "main.js": "/Movie-Searcher-TMDB/static/js/main.6ea81327.chunk.js",
+    "main.js.map": "/Movie-Searcher-TMDB/static/js/main.6ea81327.chunk.js.map",
+    "runtime-main.js": "/Movie-Searcher-TMDB/static/js/runtime-main.ed597c26.js",
+    "runtime-main.js.map": "/Movie-Searcher-TMDB/static/js/runtime-main.ed597c26.js.map",
+    "static/css/2.27175f2b.chunk.css": "/Movie-Searcher-TMDB/static/css/2.27175f2b.chunk.css",
+    "static/js/2.435ca61f.chunk.js": "/Movie-Searcher-TMDB/static/js/2.435ca61f.chunk.js",
+    "static/js/2.435ca61f.chunk.js.map": "/Movie-Searcher-TMDB/static/js/2.435ca61f.chunk.js.map",
+    "index.html": "/Movie-Searcher-TMDB/index.html",
+    "static/css/2.27175f2b.chunk.css.map": "/Movie-Searcher-TMDB/static/css/2.27175f2b.chunk.css.map",
+    "static/css/main.697f0756.chunk.css.map": "/Movie-Searcher-TMDB/static/css/main.697f0756.chunk.css.map",
+    "static/js/2.435ca61f.chunk.js.LICENSE.txt": "/Movie-Searcher-TMDB/static/js/2.435ca61f.chunk.js.LICENSE.txt",
+    "static/media/404.441829b6.jpg": "/Movie-Searcher-TMDB/static/media/404.441829b6.jpg",
+    "static/media/logo MovieDB.caee7457.svg": "/Movie-Searcher-TMDB/static/media/logo MovieDB.caee7457.svg",
+    "static/media/lupa.5ba32183.svg": "/Movie-Searcher-TMDB/static/media/lupa.5ba32183.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ed597c26.js",
+    "static/css/2.27175f2b.chunk.css",
+    "static/js/2.435ca61f.chunk.js",
+    "static/css/main.697f0756.chunk.css",
+    "static/js/main.6ea81327.chunk.js"
+  ]
+}
