@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import CardMovie from './CardMovie';
+import auxImg from '../assets/404.jpg'
 import 'react-tabs/style/react-tabs.css';
 import '../styles/TvDetail.scss';
 /* import PropTypes from 'prop-types';
@@ -46,46 +47,44 @@ const TvDetail = ({ match, history }) => {
 								{"← Back"}
 							</button>
 						</div>
-						<div className="imgContainer">
-							<img src={`https://image.tmdb.org/t/p/w220_and_h330_face/${tvShow.poster_path}`} alt={tvShow.poster_path} />
-							<h2>{tvShow.name}</h2>
-						</div>
+						<CardMovie movie={tvShow}></CardMovie>
 					</div>
-					<Tabs className="Tabs">
+					<div className="Tabs">
 						<h3>SEASONS</h3>
-						<TabList className="TabList">
+						<div className="TabList">
 							{(tvShow && tvShow.seasons.length > 0) && tvShow.seasons.map((item, index) => {
 								return (
-									<Tab
+									<div
 										className="Tab"
 										key={index}
 										onClick={() => SearchSeason(index)}>
 										{index + 1}
-									</Tab>
+									</div>
 								)
 							})}
-						</TabList>
-						{(tvShow && tvShow.seasons.length > 0) && tvShow.seasons.map((item, index) => {
+						</div>
+						{/* 	{(tvShow && tvShow.seasons.length > 0) && tvShow.seasons.map((item, index) => {
 							return (
-								<TabPanel key={index}>
-									{(season && season.episodes && season.episodes.length > 0) &&
-										season.episodes.map((item, index) => {
-											return (
-												<div key={index} className="episodesContainer">
-													<p>{index + 1}</p>
-													<p>
-														{item.name}
-													</p>
-												</div>
-											)
-										})
-									}
-								</TabPanel>
+								<div key={index}> */}
+						{(season && season.episodes && season.episodes.length > 0) &&
+							season.episodes.map((item, index) => {
+								return (
+									<div key={index} className="episodesContainer">
+										<p>{index + 1}</p>
+										<p>
+											{item.name}
+										</p>
+									</div>
+								)
+							})
+						}
+						{/* 	</div>
 							)
-						})}
-					</Tabs>
+						})} */}
+					</div>
 				</>
 			}
+			{console.log("tvShow.poster_path", tvShow)}
 		</div>
 	);
 };

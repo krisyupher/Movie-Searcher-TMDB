@@ -92,6 +92,7 @@ const Hero = ({ match, history }) => {
 					<NotFound />
 				}
 			</div>
+			{console.log("moviesList", moviesList)}
 		</div>
 	);
 };
