@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Movie-Searcher-TMDB/static/css/main.b60aecca.chunk.css",
-    "main.js": "/Movie-Searcher-TMDB/static/js/main.3dcc521d.chunk.js",
-    "main.js.map": "/Movie-Searcher-TMDB/static/js/main.3dcc521d.chunk.js.map",
+    "main.css": "/Movie-Searcher-TMDB/static/css/main.460469fa.chunk.css",
+    "main.js": "/Movie-Searcher-TMDB/static/js/main.cdf57f38.chunk.js",
+    "main.js.map": "/Movie-Searcher-TMDB/static/js/main.cdf57f38.chunk.js.map",
     "runtime-main.js": "/Movie-Searcher-TMDB/static/js/runtime-main.ed597c26.js",
     "runtime-main.js.map": "/Movie-Searcher-TMDB/static/js/runtime-main.ed597c26.js.map",
     "static/css/2.27175f2b.chunk.css": "/Movie-Searcher-TMDB/static/css/2.27175f2b.chunk.css",
-    "static/js/2.143b4200.chunk.js": "/Movie-Searcher-TMDB/static/js/2.143b4200.chunk.js",
-    "static/js/2.143b4200.chunk.js.map": "/Movie-Searcher-TMDB/static/js/2.143b4200.chunk.js.map",
+    "static/js/2.b5675575.chunk.js": "/Movie-Searcher-TMDB/static/js/2.b5675575.chunk.js",
+    "static/js/2.b5675575.chunk.js.map": "/Movie-Searcher-TMDB/static/js/2.b5675575.chunk.js.map",
     "index.html": "/Movie-Searcher-TMDB/index.html",
     "static/css/2.27175f2b.chunk.css.map": "/Movie-Searcher-TMDB/static/css/2.27175f2b.chunk.css.map",
-    "static/css/main.b60aecca.chunk.css.map": "/Movie-Searcher-TMDB/static/css/main.b60aecca.chunk.css.map",
-    "static/js/2.143b4200.chunk.js.LICENSE.txt": "/Movie-Searcher-TMDB/static/js/2.143b4200.chunk.js.LICENSE.txt",
+    "static/css/main.460469fa.chunk.css.map": "/Movie-Searcher-TMDB/static/css/main.460469fa.chunk.css.map",
+    "static/js/2.b5675575.chunk.js.LICENSE.txt": "/Movie-Searcher-TMDB/static/js/2.b5675575.chunk.js.LICENSE.txt",
     "static/media/404.441829b6.jpg": "/Movie-Searcher-TMDB/static/media/404.441829b6.jpg",
     "static/media/logo MovieDB.caee7457.svg": "/Movie-Searcher-TMDB/static/media/logo MovieDB.caee7457.svg",
     "static/media/lupa.5ba32183.svg": "/Movie-Searcher-TMDB/static/media/lupa.5ba32183.svg",
@@ -20,8 +20,8 @@
   "entrypoints": [
     "static/js/runtime-main.ed597c26.js",
     "static/css/2.27175f2b.chunk.css",
-    "static/js/2.143b4200.chunk.js",
-    "static/css/main.b60aecca.chunk.css",
-    "static/js/main.3dcc521d.chunk.js"
+    "static/js/2.b5675575.chunk.js",
+    "static/css/main.460469fa.chunk.css",
+    "static/js/main.cdf57f38.chunk.js"
   ]
 }
