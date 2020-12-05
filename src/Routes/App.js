@@ -4,6 +4,7 @@ import Header from '../component/Header';
 import Hero from '../component/Hero';
 import MovieDetail from '../component/MovieDetail';
 import TvDetail from '../component/TvDetail';
+import Prueba from '../component/Prueba';
 
 const App = () => (
   <BrowserRouter>
@@ -15,6 +16,7 @@ const App = () => (
       <Route exact path='/Search/:id' component={Hero} />
       <Route exact path='/Detail/:id' component={MovieDetail} />
       <Route exact path='/DetailTv/:id' component={TvDetail} />
+      <Route exact path='/prueba' component={Prueba} />
     </Switch>
   </BrowserRouter>
 );

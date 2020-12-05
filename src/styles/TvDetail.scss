@@ -1,6 +1,7 @@
 .TvDetailContainer {
 	display: flex;
 	justify-content: center;
+	flex-wrap: wrap;
 	background: linear-gradient(
 		120deg,
 		rgba(255, 255, 255, 0) 0%,
